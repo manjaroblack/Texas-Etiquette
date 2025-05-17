@@ -1,0 +1,42 @@
+# Project Development Rules: Summary
+
+This document provides a condensed summary of the comprehensive development rules and standards for the Texas Etiquette Online Presence Revitalization project. For complete details, please refer to the full [projectRules.md](./projectRules.md) document.
+
+## 1. Code Style & Formatting Rules
+
+- **Core Tooling:** ESLint, Prettier, TypeScript-ESLint, and `prettier-plugin-tailwindcss` are configured for linting and formatting. Refer to `eslint.config.js` and `.prettierrc.json`.
+- **Naming Conventions:** Adhere to `PascalCase` for components, types, and classes; `camelCase` or `kebab-case` for functions, variables, and files. React-specific conventions apply.
+- **Code Organization:** Follow Next.js (App Router) best practices. Key directories include `app/` (routes, layouts, API), `components/` (UI, layout, feature-specific), `lib/` (utilities, API clients), `hooks/`, and `types/`.
+- **React & JSX:** Enforce rules for keys, no unescaped entities, and PascalCase for components. Hooks rules are critical.
+- **Tailwind CSS:** Use `prettier-plugin-tailwindcss` for class sorting. Encapsulate complex utility combinations in components or use `@apply` sparingly. Customize via `tailwind.config.ts`.
+
+(See [projectRules.md#1-code-style--formatting-rules](./projectRules.md#1-code-style--formatting-rules) for full details.)
+
+## 2. Architectural Guidelines
+
+- **Core Principles:** Modularity, Scalability, Maintainability, Reusability, Separation of Concerns.
+- **Next.js Specifics:** Utilize App Router, `src/` directory, `@/*` import alias. Prioritize Server Components; use Client Components (`'use client';`) for interactivity.
+- **State Management:** Prefer server-side data as the source of truth. Use `useState`/`useReducer` for local state, Context API for scoped UI state. Consider Zustand/Jotai for complex global client-side UI state if necessary. URL can be used for state.
+- **API Design:** Use Next.js Route Handlers in `app/api/`. Follow RESTful principles. Define clear request/response schemas with TypeScript and validate with Zod. Use standard HTTP status codes and consistent error handling.
+- **Data Handling & Validation:** Use TypeScript for type safety. Validate all external data (API responses, user input) with Zod. Sanitize inputs. Prioritize server-side data fetching (RSCs, Server Actions); use SWR/TanStack Query for client-side needs if required.
+
+(See [projectRules.md#2-architectural-guidelines](./projectRules.md#2-architectural-guidelines) for full details.)
+
+## 3. DevOps Practices
+
+- **Version Control (Git):** Feature branches from `develop`, PRs to `develop`, then `main`. Conventional Commits. Protect `main` and `develop` branches.
+- **CI/CD:** GitHub Actions for automated builds, tests (linting, unit, integration), and deployments. Vercel for hosting and deployments.
+- **Environment Management:** `develop`, `staging`, `production` environments on Vercel. Manage environment variables via Vercel UI for deployed environments and `.env.local` (gitignored) for local development, with `.env.example` as a template.
+- **Monitoring & Logging:** Utilize Vercel Analytics & Functions logs. Consider Sentry for error tracking. Implement structured, server-side logging with appropriate log levels. Avoid logging sensitive data.
+
+(See [projectRules.md#3-devops-practices](./projectRules.md#3-devops-practices) for full details.)
+
+## 4. Security Rules
+
+- **General Principles:** Least Privilege, Defense in Depth, Secure Defaults, Input Validation, Output Encoding, Keep Software Updated, Security through Simplicity.
+- **Authentication & Authorization:** Use NextAuth.js. Implement robust password policies, session management (secure cookies, short lifespans, re-authentication for sensitive actions). Consider MFA. Implement Role-Based Access Control (RBAC).
+- **Data Security & Privacy:** Use HTTPS. Encrypt sensitive data at rest and in transit where appropriate. Validate and sanitize all inputs (prevent XSS, SQLi). Encode output. Securely manage API keys/secrets (Vercel env vars). Minimize PII collection.
+- **Dependency Management:** Regularly scan for vulnerabilities (e.g., `bun audit`, Dependabot). Keep dependencies updated. Vet third-party sources.
+- **Secure Development Practices:** Conduct secure code reviews. Consider SAST tools. Follow the principle of least privilege for application processes. Handle errors securely (generic messages to client, detailed server logs). Implement HTTP security headers (CSP, HSTS, X-Frame-Options, etc.).
+
+(See [projectRules.md#4-security-rules](./projectRules.md#4-security-rules) for full details.)
