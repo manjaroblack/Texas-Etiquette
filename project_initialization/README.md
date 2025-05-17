@@ -24,19 +24,19 @@ Project Idea → SPEC → BRD → PRD → UI Requirements → Security Requireme
 
 ## Files and Their Purpose
 
-| File | Purpose | Input Documents | Output Document |
-|------|---------|----------------|-----------------|
-| `01-SPEC_Prompt.md` | Generate detailed technical specifications | Project idea | `project_docs/projectSpecification.md` |
-| `02-BRD_Prompt.md` | Create business requirements document | SPEC | `project_docs/businessRequirements.md` |
-| `03-PRD_Prompt.md` | Define product requirements | SPEC, BRD | `project_docs/productRequirements.md` |
-| `03a-UI_Requirements_and_Style_Prompt.md` | Specify UI/UX requirements | SPEC, BRD, PRD | `project_docs/uiRequirementsStyleGuide.md` |
-| `03b-Security_Requirements_Prompt.md` | Define security controls | SPEC, BRD, PRD, UI | `project_docs/securityRequirements.md` |
-| `04-Stories_Prompt.md` | Create granular user stories | SPEC, BRD, PRD, UI, Security | `project_docs/userStories.md` |
-| `04a-Testing_Strategy_Prompt.md` | Establish testing approach | SPEC, BRD, PRD, UI, Security, Stories | `project_docs/testingStrategy.md` |
-| `04b-Deployment_Plan_Prompt.md` | Define deployment process | SPEC, BRD, PRD, UI, Security, Stories, Testing | `project_docs/deploymentPlan.md` |
-| `05-Checklist_Prompt.md` | Create implementation checklist | All previous documents | `project_docs/implementationChecklist.md` |
-| `06-Rules_Prompt.md` | Generate project-specific rules | All previous documents + awesome-cursorrules | `project_docs/projectRules.md` |
-| `07-Init_Memory_Prompt.md` | Initialize project-specific KG | Project Name, (Optional) SPEC | Knowledge Graph |
+| File                                      | Purpose                                    | Input Documents                                | Output Document                            |
+| ----------------------------------------- | ------------------------------------------ | ---------------------------------------------- | ------------------------------------------ |
+| `01-SPEC_Prompt.md`                       | Generate detailed technical specifications | Project idea                                   | `project_docs/projectSpecification.md`     |
+| `02-BRD_Prompt.md`                        | Create business requirements document      | SPEC                                           | `project_docs/businessRequirements.md`     |
+| `03-PRD_Prompt.md`                        | Define product requirements                | SPEC, BRD                                      | `project_docs/productRequirements.md`      |
+| `03a-UI_Requirements_and_Style_Prompt.md` | Specify UI/UX requirements                 | SPEC, BRD, PRD                                 | `project_docs/uiRequirementsStyleGuide.md` |
+| `03b-Security_Requirements_Prompt.md`     | Define security controls                   | SPEC, BRD, PRD, UI                             | `project_docs/securityRequirements.md`     |
+| `04-Stories_Prompt.md`                    | Create granular user stories               | SPEC, BRD, PRD, UI, Security                   | `project_docs/userStories.md`              |
+| `04a-Testing_Strategy_Prompt.md`          | Establish testing approach                 | SPEC, BRD, PRD, UI, Security, Stories          | `project_docs/testingStrategy.md`          |
+| `04b-Deployment_Plan_Prompt.md`           | Define deployment process                  | SPEC, BRD, PRD, UI, Security, Stories, Testing | `project_docs/deploymentPlan.md`           |
+| `05-Checklist_Prompt.md`                  | Create implementation checklist            | All previous documents                         | `project_docs/implementationChecklist.md`  |
+| `06-Rules_Prompt.md`                      | Generate project-specific rules            | All previous documents + awesome-cursorrules   | `project_docs/projectRules.md`             |
+| `07-Init_Memory_Prompt.md`                | Initialize project-specific KG             | Project Name, (Optional) SPEC                  | Knowledge Graph                            |
 
 ## Procedure
 

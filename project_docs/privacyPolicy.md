@@ -13,37 +13,37 @@ Please read this Privacy Policy carefully. By using our Services, you agree to t
 
 We may collect personal information that you voluntarily provide to us when you:
 
-* **Register for a class or service:** This includes your name, email address, phone number, billing address, information about the participant (if different, e.g., child's name and age for children's classes booked by a parent/guardian), and potentially age confirmation (for COPPA compliance).
-* **Make a payment:** Payment information (like credit card numbers) is collected directly by our third-party payment processor, Stripe. We do not store your full payment card details. Stripe's privacy policy governs their collection and use of your data.
-* **Use our booking system:** Scheduling information, including chosen class dates/times and participant details, is collected via our third-party booking provider, Acuity Scheduling. Acuity's privacy policy governs their collection and use of your data.
-* **Contact us:** When you fill out our contact form or email us, we collect your name, email address, phone number (optional), and the content of your message.
-* **Visit our website:** We may automatically collect certain information about your device and browsing activity through cookies and similar technologies (see Section 5). This may include your IP address, browser type, operating system, referring URLs, and pages viewed.
+- **Register for a class or service:** This includes your name, email address, phone number, billing address, information about the participant (if different, e.g., child's name and age for children's classes booked by a parent/guardian), and potentially age confirmation (for COPPA compliance).
+- **Make a payment:** Payment information (like credit card numbers) is collected directly by our third-party payment processor, Stripe. We do not store your full payment card details. Stripe's privacy policy governs their collection and use of your data.
+- **Use our booking system:** Scheduling information, including chosen class dates/times and participant details, is collected via our third-party booking provider, Acuity Scheduling. Acuity's privacy policy governs their collection and use of your data.
+- **Contact us:** When you fill out our contact form or email us, we collect your name, email address, phone number (optional), and the content of your message.
+- **Visit our website:** We may automatically collect certain information about your device and browsing activity through cookies and similar technologies (see Section 5). This may include your IP address, browser type, operating system, referring URLs, and pages viewed.
 
 ## 3. How We Use Your Information
 
 We use the information we collect for various purposes, including to:
 
-* Provide, operate, and maintain our Services.
-* Process your registrations, bookings, and payments.
-* Communicate with you, including responding to inquiries, sending confirmations, reminders, and updates about your bookings or our services.
-* Send you marketing communications (if you opt-in).
-* Improve our website and Services (e.g., through analytics).
-* Ensure the security of our Services.
-* Comply with legal obligations.
-* Process Data Subject Rights requests.
+- Provide, operate, and maintain our Services.
+- Process your registrations, bookings, and payments.
+- Communicate with you, including responding to inquiries, sending confirmations, reminders, and updates about your bookings or our services.
+- Send you marketing communications (if you opt-in).
+- Improve our website and Services (e.g., through analytics).
+- Ensure the security of our Services.
+- Comply with legal obligations.
+- Process Data Subject Rights requests.
 
 ## 4. How We Share Your Information
 
 We do not sell your personal information. We may share your information in the following situations:
 
-* **With Third-Party Service Providers:**
-    * **Acuity Scheduling:** To manage class bookings and scheduling.
-    * **Stripe:** To process payments securely.
-    * **Hosting Provider (Vercel/Netlify):** Our website host may collect standard logs and analytics data.
-    * **Email Service Provider:** To send transactional emails (confirmations, etc.). We will verify that they use TLS encryption for secure transmission.
-    * **Legal and Tax Professionals:** As needed for advice and compliance.
-* **For Legal Reasons:** We may disclose your information if required by law, subpoena, or other legal process, or if we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.
-* **Business Transfers:** In the event of a merger, acquisition, or sale of all or a portion of our assets, your personal information may be transferred as part of that transaction.
+- **With Third-Party Service Providers:**
+  - **Acuity Scheduling:** To manage class bookings and scheduling.
+  - **Stripe:** To process payments securely.
+  - **Hosting Provider (Vercel/Netlify):** Our website host may collect standard logs and analytics data.
+  - **Email Service Provider:** To send transactional emails (confirmations, etc.). We will verify that they use TLS encryption for secure transmission.
+  - **Legal and Tax Professionals:** As needed for advice and compliance.
+- **For Legal Reasons:** We may disclose your information if required by law, subpoena, or other legal process, or if we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.
+- **Business Transfers:** In the event of a merger, acquisition, or sale of all or a portion of our assets, your personal information may be transferred as part of that transaction.
 
 We require our third-party service providers to respect the security of your personal information and to treat it in accordance with the law. We only permit them to process your personal data for specified purposes and in accordance with our instructions.
 
@@ -63,11 +63,11 @@ We will retain your personal information only for as long as necessary to fulfil
 
 Depending on your jurisdiction, you may have certain rights regarding your personal information. These may include the right to:
 
-* Access the personal information we hold about you.
-* Request correction of inaccurate personal information.
-* Request erasure of your personal information.
-* Object to or restrict processing of your personal information.
-* Request data portability.
+- Access the personal information we hold about you.
+- Request correction of inaccurate personal information.
+- Request erasure of your personal information.
+- Object to or restrict processing of your personal information.
+- Request data portability.
 
 To exercise any of these rights, please contact us using the contact information provided below (Section 12). We will respond to your request in accordance with applicable law. We may need to verify your identity before processing your request.
 

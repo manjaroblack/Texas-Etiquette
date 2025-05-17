@@ -1,0 +1,9 @@
+# Ignore artifacts:
+.next/
+node_modules/
+bun.lockb
+
+# Ignore build output:
+public/
+
+# Project-specific ignores (if any):

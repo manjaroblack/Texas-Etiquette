@@ -29,22 +29,22 @@ By using the Site and Services, you represent and warrant that: (1) all registra
 
 ## 5. Booking, Payments, and Fees
 
-* **Booking:** All class and service bookings are managed through our third-party provider, Acuity Scheduling. Your use of the booking system is also subject to Acuity Scheduling's terms and privacy policy.
-* **Payment:** Payments for Services are processed securely through our third-party payment processor, Stripe. Your payment transactions are subject to Stripe's terms and privacy policy. You agree to provide current, complete, and accurate purchase and account information for all purchases made via the Site.
-* **Fees:** Prices for our Services are listed on the Site and are subject to change. All payments shall be in U.S. dollars. You agree to pay all charges at the prices then in effect for your purchases, including any applicable taxes, and you authorize us (through Stripe) to charge your chosen payment provider for any such amounts upon placing your booking.
-* **Deposits:** Certain Services, such as the Young Sophisticates Finishing School, require a non-refundable deposit at the time of booking to reserve your place, as specified on the relevant Service page.
-* **Payment Plans:** Payment plans may be available for certain Services, as indicated on the Service page or agreed upon separately in writing. Failure to make timely payments under an agreed plan may result in suspension or cancellation of the Service.
+- **Booking:** All class and service bookings are managed through our third-party provider, Acuity Scheduling. Your use of the booking system is also subject to Acuity Scheduling's terms and privacy policy.
+- **Payment:** Payments for Services are processed securely through our third-party payment processor, Stripe. Your payment transactions are subject to Stripe's terms and privacy policy. You agree to provide current, complete, and accurate purchase and account information for all purchases made via the Site.
+- **Fees:** Prices for our Services are listed on the Site and are subject to change. All payments shall be in U.S. dollars. You agree to pay all charges at the prices then in effect for your purchases, including any applicable taxes, and you authorize us (through Stripe) to charge your chosen payment provider for any such amounts upon placing your booking.
+- **Deposits:** Certain Services, such as the Young Sophisticates Finishing School, require a non-refundable deposit at the time of booking to reserve your place, as specified on the relevant Service page.
+- **Payment Plans:** Payment plans may be available for certain Services, as indicated on the Service page or agreed upon separately in writing. Failure to make timely payments under an agreed plan may result in suspension or cancellation of the Service.
 
 ## 6. Cancellation and Refund Policy
 
-*(IMPORTANT: This section requires final definition based on your business decisions and legal counsel review. The following is based on information gathered so far.)*
+_(IMPORTANT: This section requires final definition based on your business decisions and legal counsel review. The following is based on information gathered so far.)_
 
-* **Deposits:** All deposits paid to reserve a date or place in a course (e.g., the $200 deposit for Young Sophisticates) are **non-refundable**.
-* **Cancellations by User:** If you need to cancel or postpone your participation in a booked Service:
-    * Non-refundable deposits may, at our discretion and subject to availability, be applied as a credit towards a future training event or private lesson if a postponement is requested within a reasonable timeframe (e.g., [Specify Timeframe, e.g., 7 days] before the scheduled start date).
-    * For full payments made, [Define Your Refund Policy Here - e.g., No refunds are provided, or partial refunds may be available if cancelled X days in advance, or only credit towards future services is offered].
-* **Missed Classes:** [Define Policy for Missed Classes - e.g., No refunds or credits are provided for missed individual sessions within a multi-session course. We may offer access to missed materials or recordings where feasible, but this is not guaranteed.]
-* **Cancellations by Us:** We reserve the right to cancel or reschedule a course due to low enrollment or unforeseen circumstances. In such cases, you will be offered a full refund of any payments made for that specific course or the option to transfer your registration to a future date.
+- **Deposits:** All deposits paid to reserve a date or place in a course (e.g., the $200 deposit for Young Sophisticates) are **non-refundable**.
+- **Cancellations by User:** If you need to cancel or postpone your participation in a booked Service:
+  - Non-refundable deposits may, at our discretion and subject to availability, be applied as a credit towards a future training event or private lesson if a postponement is requested within a reasonable timeframe (e.g., [Specify Timeframe, e.g., 7 days] before the scheduled start date).
+  - For full payments made, [Define Your Refund Policy Here - e.g., No refunds are provided, or partial refunds may be available if cancelled X days in advance, or only credit towards future services is offered].
+- **Missed Classes:** [Define Policy for Missed Classes - e.g., No refunds or credits are provided for missed individual sessions within a multi-session course. We may offer access to missed materials or recordings where feasible, but this is not guaranteed.]
+- **Cancellations by Us:** We reserve the right to cancel or reschedule a course due to low enrollment or unforeseen circumstances. In such cases, you will be offered a full refund of any payments made for that specific course or the option to transfer your registration to a future date.
 
 Please contact us directly to discuss any necessary cancellations or postponements.
 
@@ -68,7 +68,7 @@ These Terms and your use of the Site and Services are governed by and construed 
 
 ## 11. Dispute Resolution
 
-*(IMPORTANT: Consult legal counsel to determine the appropriate dispute resolution mechanism - e.g., negotiation, mediation, arbitration, litigation in specific courts.)*
+_(IMPORTANT: Consult legal counsel to determine the appropriate dispute resolution mechanism - e.g., negotiation, mediation, arbitration, litigation in specific courts.)_
 
 [Placeholder: Any legal action of whatever nature brought by either you or us shall be commenced or prosecuted in the state and federal courts located in Tarrant County, Texas, and the Parties hereby consent to, and waive all defenses of lack of personal jurisdiction and forum non conveniens with respect to venue and jurisdiction in such state and federal courts. / Or: The parties agree to attempt to resolve any dispute arising out of or relating to these Terms through good faith negotiation. If negotiation fails, the parties agree to mandatory mediation in Tarrant County, Texas. / Or: Include an arbitration clause.]
 

@@ -21,9 +21,10 @@ The proposed solution addresses these needs by providing a modern, user-friendly
 ### Gaps & Validation Needed
 
 Key assumptions about user desire and problem/solution fit that require validation include:
-* The specific demand for online booking and payment options among the target audience.
-* The effectiveness of positioning etiquette training as a tool for confidence and social ease.
-* The appeal of the proposed USPs (Founder Expertise & Approach, Southern/Texas Hospitality Focus, Modern Etiquette, Specific Fort Worth Community Focus).
+
+- The specific demand for online booking and payment options among the target audience.
+- The effectiveness of positioning etiquette training as a tool for confidence and social ease.
+- The appeal of the proposed USPs (Founder Expertise & Approach, Southern/Texas Hospitality Focus, Modern Etiquette, Specific Fort Worth Community Focus).
 
 ## Feasibility Assessment (Preliminary)
 
@@ -38,9 +39,10 @@ The project requires resources for web development, content creation, design, an
 ### Gaps & Validation Needed
 
 Key technical and resource assumptions that need further investigation include:
-* Specific development time and cost for the Next.js project.
-* Effort required for ongoing website maintenance and content updates.
-* The cost-effectiveness of different third-party tools and services.
+
+- Specific development time and cost for the Next.js project.
+- Effort required for ongoing website maintenance and content updates.
+- The cost-effectiveness of different third-party tools and services.
 
 ## Viability Assessment (Preliminary)
 
@@ -51,14 +53,15 @@ The Dallas-Fort Worth metroplex has a number of established etiquette schools an
 ### Business Model Potential (Lean Canvas Element Review)
 
 Based on the brief, the Lean Canvas elements show potential:
-* **Problem:** Lack of confidence and social anxiety in various settings.
-* **Solution:** Etiquette training services (online and in-person) with a focus on building confidence and practical skills.
-* **UVP:** Modernized formal aesthetic, founder expertise, Southern/Texas hospitality focus, and specific Fort Worth community focus.
-* **Customer Segments:** Parents, professionals, individuals, and specific groups in the Fort Worth area.
-* **Channels:** Website, local SEO, potential partnerships, and word-of-mouth.
-* **Revenue Streams:** Fees for classes, workshops, and private coaching.
-* **Cost Structure:** Website development and maintenance, marketing, instructor fees, and operational expenses.
-Potential risks include competition, the need for effective marketing, and the challenge of establishing trust and authority online.
+
+- **Problem:** Lack of confidence and social anxiety in various settings.
+- **Solution:** Etiquette training services (online and in-person) with a focus on building confidence and practical skills.
+- **UVP:** Modernized formal aesthetic, founder expertise, Southern/Texas hospitality focus, and specific Fort Worth community focus.
+- **Customer Segments:** Parents, professionals, individuals, and specific groups in the Fort Worth area.
+- **Channels:** Website, local SEO, potential partnerships, and word-of-mouth.
+- **Revenue Streams:** Fees for classes, workshops, and private coaching.
+- **Cost Structure:** Website development and maintenance, marketing, instructor fees, and operational expenses.
+  Potential risks include competition, the need for effective marketing, and the challenge of establishing trust and authority online.
 
 ### Competitive Landscape & Advantage
 
@@ -67,58 +70,59 @@ The DFW etiquette training market is competitive. Texas Etiquette can differenti
 ### Gaps & Validation Needed
 
 Key assumptions about market adoption, pricing, costs, revenue model, and competitive response that require validation include:
-* Target audience's willingness to pay for online etiquette training.
-* Optimal pricing strategies for different services.
-* Effectiveness of proposed USPs in attracting clients.
-* Local SEO strategy ROI.
+
+- Target audience's willingness to pay for online etiquette training.
+- Optimal pricing strategies for different services.
+- Effectiveness of proposed USPs in attracting clients.
+- Local SEO strategy ROI.
 
 ## SWOT Analysis (Based on Brief)
 
 ### Strengths
 
-* Potential for a strong brand identity with a "modernized formal aesthetic" and "Texas Etiquette" name.
-* Founder's expertise and affiliation with Civility Experts Worldwide.
-* Opportunities to differentiate through specialized offerings (e.g., Southern/Texas hospitality focus, modern etiquette).
-* A new website built with Next.js for performance and scalability.
-* Integrate online booking and payment processing for convenience.
+- Potential for a strong brand identity with a "modernized formal aesthetic" and "Texas Etiquette" name.
+- Founder's expertise and affiliation with Civility Experts Worldwide.
+- Opportunities to differentiate through specialized offerings (e.g., Southern/Texas hospitality focus, modern etiquette).
+- A new website built with Next.js for performance and scalability.
+- Integrate online booking and payment processing for convenience.
 
 ### Weaknesses
 
-* The need to build a new online presence from scratch.
-* Competition from established etiquette schools and consultants.
-* Potential challenges in establishing trust and authority online.
-* Reliance on the owner's personal brand, which may limit scalability.
+- The need to build a new online presence from scratch.
+- Competition from established etiquette schools and consultants.
+- Potential challenges in establishing trust and authority online.
+- Reliance on the owner's personal brand, which may limit scalability.
 
 ### Opportunities
 
-* Growing demand for etiquette training in the Fort Worth area.
-* Underserved niches, such as adult social refinement and accessible online courses.
-* Leveraging local SEO to attract clients in Fort Worth.
-* Potential for future expansion into e-commerce.
+- Growing demand for etiquette training in the Fort Worth area.
+- Underserved niches, such as adult social refinement and accessible online courses.
+- Leveraging local SEO to attract clients in Fort Worth.
+- Potential for future expansion into e-commerce.
 
 ### Threats
 
-* Competition from established players with strong online presence.
-* Changing trends in etiquette and online behavior.
-* Potential economic downturn affecting demand for discretionary services.
-* Risks associated with technology implementation and maintenance.
+- Competition from established players with strong online presence.
+- Changing trends in etiquette and online behavior.
+- Potential economic downturn affecting demand for discretionary services.
+- Risks associated with technology implementation and maintenance.
 
 ## RICE Score / Evaluation Score (Qualitative)
 
-* **Reach:** Medium (Fort Worth area, specific target segments)
-* **Impact:** Medium to High (Confidence, social ease, professional advancement)
-* **Confidence:** Low to Medium (Many assumptions need validation)
-* **Effort:** Medium to High (Custom development, content creation, SEO)
-* **Indicative RICE Score:** (Reach x Impact x Confidence) / Effort = 2.25 to 6.75 (Highly speculative)
+- **Reach:** Medium (Fort Worth area, specific target segments)
+- **Impact:** Medium to High (Confidence, social ease, professional advancement)
+- **Confidence:** Low to Medium (Many assumptions need validation)
+- **Effort:** Medium to High (Custom development, content creation, SEO)
+- **Indicative RICE Score:** (Reach x Impact x Confidence) / Effort = 2.25 to 6.75 (Highly speculative)
 
 ## Key Risks & Assumptions Summary
 
-* **Market Demand:** Demand for online booking and payment, willingness to pay for online etiquette training.
-* **Solution Fit:** Effectiveness of positioning and USPs.
-* **Technical Feasibility:** Development time and cost, integration complexities.
-* **Market Viability:** Pricing, competition, ROI of marketing efforts.
-* **Operational Feasibility:** Ongoing maintenance and content updates.
-* **Assumptions requiring immediate validation:** Market demand for online booking and payment, effectiveness of core USPs, and accurate estimation of development costs.
+- **Market Demand:** Demand for online booking and payment, willingness to pay for online etiquette training.
+- **Solution Fit:** Effectiveness of positioning and USPs.
+- **Technical Feasibility:** Development time and cost, integration complexities.
+- **Market Viability:** Pricing, competition, ROI of marketing efforts.
+- **Operational Feasibility:** Ongoing maintenance and content updates.
+- **Assumptions requiring immediate validation:** Market demand for online booking and payment, effectiveness of core USPs, and accurate estimation of development costs.
 
 ## Overall Assessment & Recommendation
 

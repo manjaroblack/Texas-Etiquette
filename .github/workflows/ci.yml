@@ -14,9 +14,6 @@ jobs:
   lint-format-build:
     name: Lint, Format Check & Build
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./app # Default working directory for all run steps in this job
 
     steps:
       - name: Checkout code
@@ -46,7 +43,7 @@ jobs:
         run: bun run lint
 
       - name: Run Prettier Format Check
-        run: bun run format-check
+        run: bun run check-format
 
       - name: Run Build
         run: bun run build

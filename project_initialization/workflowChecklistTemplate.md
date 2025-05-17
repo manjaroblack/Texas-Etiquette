@@ -6,7 +6,7 @@
 
 - [ ] **1. Identify Task:** Determine task from `implementationChecklist.md` or user directive.
 - [ ] **2. Load Context & Identify Project:**
-  - [ ] Identify/Create Project Root Entity: Find (using `mcp_memory_search_nodes` for `entityType: Project`) or create the main 'Project' entity in the KG (`mcp_memory_create_entities`). **Store its name (this will be the prefix).** Example: `ProjectAlpha`. *All subsequent KG updates must be linked to this entity and use this name as a prefix.*
+  - [ ] Identify/Create Project Root Entity: Find (using `mcp_memory_search_nodes` for `entityType: Project`) or create the main 'Project' entity in the KG (`mcp_memory_create_entities`). **Store its name (this will be the prefix).** Example: `ProjectAlpha`. _All subsequent KG updates must be linked to this entity and use this name as a prefix._
   - [ ] Query Knowledge Graph using task-specific keywords and the project prefix (`mcp_memory_search_nodes` with query like `[ProjectPrefix]_*`).
   - [ ] Retrieve detailed entity information (`mcp_memory_open_nodes`).
   - [ ] Get comprehensive view if needed (`mcp_memory_read_graph`).
@@ -14,7 +14,7 @@
   - [ ] Create new entity for current task execution using the prefix (e.g., `[ProjectPrefix]_Task_XYZ`) (`mcp_memory_create_entities`).
   - [ ] Record initial understanding in the task entity (`mcp_memory_add_observations`).
   - [ ] Link task entity to the Project Root Entity (`mcp_memory_create_relations`: `from: [ProjectPrefix]_Task_XYZ, relationType: partOf, to: [ProjectPrefix]`).
-  - [ ] Link task to other related entities, ensuring they *also* use the prefix and are linked (directly or indirectly) to the Project Root Entity (`mcp_memory_create_relations`).
+  - [ ] Link task to other related entities, ensuring they _also_ use the prefix and are linked (directly or indirectly) to the Project Root Entity (`mcp_memory_create_relations`).
 - [ ] **4. Update Workflow Checklist:** Mark Phase 1 steps as complete.
 
 ## Phase 2: Planning & Research

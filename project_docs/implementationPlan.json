@@ -5,7 +5,7 @@
       "type": "epic",
       "title": "Website Platform & Foundation (Next.js, Hosting Setup)",
       "description": "Establish the core Next.js project, configure the hosting environment, and set up the initial CI/CD pipeline. This forms the stable base for all subsequent development and deployment activities.",
-      "status": "todo",
+      "status": "done",
       "depends_on": [],
       "priority": "P0 - Critical",
       "estimated_effort": "TBD",
@@ -15,7 +15,9 @@
         "user_stories": "userStories.md#MVP-STORY-01",
         "deployment_plan": "deploymentPlan.md#Environments"
       },
-      "security_implications": ["Secure configuration of hosting and CI/CD environments is crucial."],
+      "security_implications": [
+        "Secure configuration of hosting and CI/CD environments is crucial."
+      ],
       "test_cases_references": ["testStrategy.md#SetupValidation"],
       "tasks": [
         {
@@ -27,10 +29,15 @@
           "priority": "P0 - Critical",
           "estimated_effort": "S",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["Next.js project is successfully initialized using \\`bunx create-next-app\\`.", "Project runs locally using \\`bun dev\\`."],
+          "verification_criteria": [
+            "Next.js project is successfully initialized using \\`bunx create-next-app\\`.",
+            "Project runs locally using \\`bun dev\\`."
+          ],
           "security_implications": [],
           "test_cases_references": [],
-          "notes_comments": ["Project initialization will use Bun. Previous attempts with npx encountered file system/permission issues. Using Bun aims to mitigate these."]
+          "notes_comments": [
+            "Project initialization will use Bun. Previous attempts with npx encountered file system/permission issues. Using Bun aims to mitigate these."
+          ]
         },
         {
           "task_id": "epic-01-setup-task-002",
@@ -41,7 +48,10 @@
           "priority": "P0 - Critical",
           "estimated_effort": "XS",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["Project compiles successfully with TypeScript.", "Type checking is enforced."],
+          "verification_criteria": [
+            "Project compiles successfully with TypeScript.",
+            "Type checking is enforced."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -55,7 +65,9 @@
           "priority": "P0 - Critical",
           "estimated_effort": "XS",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["Tailwind CSS utility classes are usable and apply styles correctly."],
+          "verification_criteria": [
+            "Tailwind CSS utility classes are usable and apply styles correctly."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -65,11 +77,14 @@
           "type": "task",
           "task_title": "Set up Git Repository",
           "task_description": "Initialize a Git repository, create a .gitignore file, and push the initial project structure to the GitHub repository (Texas-Etiquette).",
-          "status": "in_progress",
+          "status": "done",
           "priority": "P0 - Critical",
           "estimated_effort": "XS",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["Project is version controlled on GitHub.", "Initial commit includes project setup."],
+          "verification_criteria": [
+            "Project is version controlled on GitHub.",
+            "Initial commit includes project setup."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -79,11 +94,13 @@
           "type": "task",
           "task_title": "Define Project Structure",
           "task_description": "Establish a clean and scalable folder structure for components, pages, styles, utilities, etc.",
-          "status": "todo",
+          "status": "done",
           "priority": "P1 - High",
           "estimated_effort": "S",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["Project directory structure is agreed upon and implemented."],
+          "verification_criteria": [
+            "Project directory structure is agreed upon and implemented."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -93,11 +110,13 @@
           "type": "task",
           "task_title": "Set up Linting and Formatting",
           "task_description": "Configure ESLint and Prettier for code quality and consistency. Dependencies will be installed using Bun.",
-          "status": "todo",
+          "status": "done",
           "priority": "P1 - High",
           "estimated_effort": "S",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["Linting and formatting tools run correctly and enforce coding standards."],
+          "verification_criteria": [
+            "Linting and formatting tools run correctly and enforce coding standards."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -107,17 +126,26 @@
           "type": "task",
           "task_title": "Set up CI/CD with GitHub Actions (Build & Lint)",
           "task_description": "Create GitHub Actions workflows for linting, testing, and building on push/PR to main/develop branches.",
-          "status": "todo",
+          "status": "done",
           "priority": "P1 - High",
           "estimated_effort": "M",
           "user_stories_ref": ["MVP-STORY-01"],
-          "verification_criteria": ["GitHub Actions workflow for linting, testing, and building is created and functional (triggers on push/PR)."],
+          "verification_criteria": [
+            "GitHub Actions workflow for linting, testing, and building is created and functional (triggers on push/PR)."
+          ],
           "security_implications": [],
           "test_cases_references": [],
-          "notes_comments": ["Initial setup includes lint, format check, and build. Testing job can be added later when tests are written."]
+          "notes_comments": [
+            "Initial setup includes lint, format check, and build. Testing job can be added later when tests are written."
+          ]
         }
       ],
-      "verification": ["Next.js project is successfully initialized, configured with TypeScript and Tailwind CSS.","Git repository set up and initial project structure pushed to remote.", "Basic CI/CD pipeline (lint, build) is functional.", "Hosting environment is provisioned for future deployments."],
+      "verification": [
+        "Next.js project is successfully initialized, configured with TypeScript and Tailwind CSS.",
+        "Git repository set up and initial project structure pushed to remote.",
+        "Basic CI/CD pipeline (lint, build) is functional.",
+        "Hosting environment is provisioned for future deployments."
+      ],
       "notes_comments": []
     },
     {
@@ -129,12 +157,20 @@
       "depends_on": ["EPIC-MVP-01"],
       "priority": "P0 - Critical",
       "estimated_effort": "TBD",
-      "user_stories": ["MVP-STORY-02", "MVP-STORY-09", "MVP-STORY-34", "MVP-STORY-35", "MVP-STORY-36"],
+      "user_stories": [
+        "MVP-STORY-02",
+        "MVP-STORY-09",
+        "MVP-STORY-34",
+        "MVP-STORY-35",
+        "MVP-STORY-36"
+      ],
       "context": {
         "user_stories_doc": "userStories.md#EPIC-MVP-09",
         "security_requirements": "securityRequirements.md"
       },
-      "security_implications": ["This entire epic is about enhancing security. Failure here has direct security impact."],
+      "security_implications": [
+        "This entire epic is about enhancing security. Failure here has direct security impact."
+      ],
       "test_cases_references": ["testStrategy.md#SecurityTesting"],
       "tasks": [
         {
@@ -146,7 +182,11 @@
           "priority": "P0 - Critical",
           "estimated_effort": "S",
           "user_stories_ref": ["MVP-STORY-02"],
-          "verification_criteria": ["All site pages force HTTPS.", "Valid TLS certificate is in place.", "TLS 1.2+ is used."]
+          "verification_criteria": [
+            "All site pages force HTTPS.",
+            "Valid TLS certificate is in place.",
+            "TLS 1.2+ is used."
+          ]
         },
         {
           "task_id": "EPIC-MVP-09-TASK-002",
@@ -157,7 +197,10 @@
           "priority": "P0 - Critical",
           "estimated_effort": "L",
           "user_stories_ref": ["MVP-STORY-09", "MVP-STORY-34"],
-          "verification_criteria": ["All input fields have client and server-side validation.", "Inputs are sanitized against common attack vectors."]
+          "verification_criteria": [
+            "All input fields have client and server-side validation.",
+            "Inputs are sanitized against common attack vectors."
+          ]
         },
         {
           "task_id": "EPIC-MVP-09-TASK-003",
@@ -168,7 +211,10 @@
           "priority": "P1 - High",
           "estimated_effort": "M",
           "user_stories_ref": ["MVP-STORY-35"],
-          "verification_criteria": ["Recommended security headers are present and correctly configured.", "Tools like securityheaders.com show a good grade."]
+          "verification_criteria": [
+            "Recommended security headers are present and correctly configured.",
+            "Tools like securityheaders.com show a good grade."
+          ]
         },
         {
           "task_id": "EPIC-MVP-09-TASK-004",
@@ -179,10 +225,18 @@
           "priority": "P1 - High",
           "estimated_effort": "M",
           "user_stories_ref": ["MVP-STORY-36"],
-          "verification_criteria": ["Third-party integrations are secure.", "API keys and secrets are managed securely (not hardcoded in client-side code, use environment variables)."]
+          "verification_criteria": [
+            "Third-party integrations are secure.",
+            "API keys and secrets are managed securely (not hardcoded in client-side code, use environment variables)."
+          ]
         }
       ],
-      "verification": ["HTTPS is enforced site-wide.", "Inputs are validated and sanitized.", "Security headers are implemented.", "Third-party integrations are secure."],
+      "verification": [
+        "HTTPS is enforced site-wide.",
+        "Inputs are validated and sanitized.",
+        "Security headers are implemented.",
+        "Third-party integrations are secure."
+      ],
       "notes_comments": ["Regular security audits should be planned post-MVP."]
     },
     {
@@ -201,8 +255,14 @@
         "product_requirements": "productRequirements.md#User-Interface-UI--User-Experience-UX-Requirements",
         "technical_specifications": "technicalSpecifications.md#Frontend--UI-Implementation-Details"
       },
-      "security_implications": ["Ensure responsive design does not introduce accessibility issues or hide critical information on smaller screens."],
-      "test_cases_references": ["testStrategy.md#ResponsiveTesting", "testStrategy.md#AccessibilityTesting", "testStrategy.md#VisualRegressionTesting"],
+      "security_implications": [
+        "Ensure responsive design does not introduce accessibility issues or hide critical information on smaller screens."
+      ],
+      "test_cases_references": [
+        "testStrategy.md#ResponsiveTesting",
+        "testStrategy.md#AccessibilityTesting",
+        "testStrategy.md#VisualRegressionTesting"
+      ],
       "tasks": [
         {
           "task_id": "EPIC-MVP-07-TASK-001",
@@ -213,7 +273,11 @@
           "priority": "P0 - Critical",
           "estimated_effort": "TBD",
           "user_stories_ref": ["MVP-STORY-03"],
-          "verification_criteria": ["Site displays a consistent Header, Footer, and Main Content area on all pages.", "Root layout structure is implemented in app/layout.tsx.", "Layout uses defined grid system base."],
+          "verification_criteria": [
+            "Site displays a consistent Header, Footer, and Main Content area on all pages.",
+            "Root layout structure is implemented in app/layout.tsx.",
+            "Layout uses defined grid system base."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -226,10 +290,16 @@
           "status": "todo",
           "priority": "P0 - Critical",
           "estimated_effort": "TBD",
-          "verification_criteria": ["Tailwind theme is customized (fonts, colors, spacing).", "Global styles are defined for baseline elements.", "Visuals align with 'Modernized Formal' concept."],
+          "verification_criteria": [
+            "Tailwind theme is customized (fonts, colors, spacing).",
+            "Global styles are defined for baseline elements.",
+            "Visuals align with 'Modernized Formal' concept."
+          ],
           "security_implications": [],
           "test_cases_references": [],
-          "notes_comments": ["This task establishes the foundational visual styling for the application."]
+          "notes_comments": [
+            "This task establishes the foundational visual styling for the application."
+          ]
         },
         {
           "task_id": "EPIC-MVP-07-TASK-003",
@@ -240,7 +310,11 @@
           "priority": "P0 - Critical",
           "estimated_effort": "TBD",
           "user_stories_ref": ["MVP-STORY-04"],
-          "verification_criteria": ["Content stacks appropriately on mobile viewports.", "Content adapts to multi-column grid on tablet viewports.", "Content utilizes desktop multi-column grid layout effectively."],
+          "verification_criteria": [
+            "Content stacks appropriately on mobile viewports.",
+            "Content adapts to multi-column grid on tablet viewports.",
+            "Content utilizes desktop multi-column grid layout effectively."
+          ],
           "security_implications": [],
           "test_cases_references": [],
           "notes_comments": []
@@ -253,13 +327,23 @@
           "status": "todo",
           "priority": "P1 - High",
           "estimated_effort": "TBD",
-          "verification_criteria": ["Core reusable components are developed and documented.", "Components are easily usable and stylable.", "Components adhere to 'Modernized Formal' design."],
-          "security_implications": ["Ensure components sanitize any props that might render user-supplied content to prevent XSS if misused, though primarily static for now."],
+          "verification_criteria": [
+            "Core reusable components are developed and documented.",
+            "Components are easily usable and stylable.",
+            "Components adhere to 'Modernized Formal' design."
+          ],
+          "security_implications": [
+            "Ensure components sanitize any props that might render user-supplied content to prevent XSS if misused, though primarily static for now."
+          ],
           "test_cases_references": [],
           "notes_comments": []
         }
       ],
-      "verification": ["Core website layout is implemented and responsive.", "Reusable UI components are created and functional.", "UI adheres to the design guidelines in uiSpecifications.md."]
+      "verification": [
+        "Core website layout is implemented and responsive.",
+        "Reusable UI components are created and functional.",
+        "UI adheres to the design guidelines in uiSpecifications.md."
+      ]
     },
     {
       "id": "EPIC-MVP-02",
@@ -270,7 +354,14 @@
       "depends_on": ["EPIC-MVP-01", "EPIC-MVP-07"],
       "priority": "P0 - Critical",
       "estimated_effort": "TBD",
-      "user_stories": ["MVP-STORY-05", "MVP-STORY-06", "MVP-STORY-07", "MVP-STORY-08", "MVP-STORY-09", "MVP-STORY-10"],
+      "user_stories": [
+        "MVP-STORY-05",
+        "MVP-STORY-06",
+        "MVP-STORY-07",
+        "MVP-STORY-08",
+        "MVP-STORY-09",
+        "MVP-STORY-10"
+      ],
       "context": {
         "product_requirements": "productRequirements.md#CorePages",
         "user_stories": "userStories.md#MVP-Stories-CorePages",
@@ -288,7 +379,9 @@
         "testStrategy.md#NavigationTesting",
         "testStrategy.md#ContactFormTesting"
       ],
-      "notes_comments": ["This epic covers the primary static content and navigation structure of the site."],
+      "notes_comments": [
+        "This epic covers the primary static content and navigation structure of the site."
+      ],
       "tasks": [
         {
           "task_id": "EPIC-MVP-02-TASK-001",
@@ -299,8 +392,14 @@
           "priority": "P0 - Critical",
           "user_stories_references": ["MVP-STORY-05"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Header component is implemented as per UI specifications.", "Header is responsive across all target breakpoints.", "Navigation links are present and functional (stubs acceptable initially)."],
-          "security_implications": ["Ensure no injection vulnerabilities if any part of the header is dynamic (unlikely for MVP)."],
+          "verification_criteria": [
+            "Header component is implemented as per UI specifications.",
+            "Header is responsive across all target breakpoints.",
+            "Navigation links are present and functional (stubs acceptable initially)."
+          ],
+          "security_implications": [
+            "Ensure no injection vulnerabilities if any part of the header is dynamic (unlikely for MVP)."
+          ],
           "test_cases_references": ["testStrategy.md#HeaderFooterTests"],
           "notes_comments": []
         },
@@ -313,7 +412,11 @@
           "priority": "P0 - Critical",
           "user_stories_references": ["MVP-STORY-05"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Footer component is implemented as per UI specifications.", "Footer is responsive across all target breakpoints.", "Essential links (e.g., privacy, terms) are present."],
+          "verification_criteria": [
+            "Footer component is implemented as per UI specifications.",
+            "Footer is responsive across all target breakpoints.",
+            "Essential links (e.g., privacy, terms) are present."
+          ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#HeaderFooterTests"],
           "notes_comments": []
@@ -327,8 +430,14 @@
           "priority": "P0 - Critical",
           "user_stories_references": ["MVP-STORY-05"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Navigation links correctly route to their respective pages.", "Navigation is consistent and accessible on all pages.", "Mobile navigation (e.g., hamburger menu) is functional if part of the design."],
-          "security_implications": ["Ensure all navigation links are to valid, internal paths or trusted external sites."],
+          "verification_criteria": [
+            "Navigation links correctly route to their respective pages.",
+            "Navigation is consistent and accessible on all pages.",
+            "Mobile navigation (e.g., hamburger menu) is functional if part of the design."
+          ],
+          "security_implications": [
+            "Ensure all navigation links are to valid, internal paths or trusted external sites."
+          ],
           "test_cases_references": ["testStrategy.md#NavigationTesting"],
           "notes_comments": []
         },
@@ -341,7 +450,11 @@
           "priority": "P0 - Critical",
           "user_stories_references": ["MVP-STORY-06"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Homepage content is accurate and matches design.", "All interactive elements are functional.", "Page is responsive and passes accessibility checks."],
+          "verification_criteria": [
+            "Homepage content is accurate and matches design.",
+            "All interactive elements are functional.",
+            "Page is responsive and passes accessibility checks."
+          ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#HomePageTesting"],
           "notes_comments": []
@@ -355,7 +468,10 @@
           "priority": "P1 - High",
           "user_stories_references": ["MVP-STORY-07"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["About Us page content is accurate and aligns with brand messaging.", "Page is responsive and adheres to UI specifications."],
+          "verification_criteria": [
+            "About Us page content is accurate and aligns with brand messaging.",
+            "Page is responsive and adheres to UI specifications."
+          ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#AboutPageTesting"],
           "notes_comments": []
@@ -369,8 +485,14 @@
           "priority": "P0 - Critical",
           "user_stories_references": ["MVP-STORY-08"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Contact information is accurate.", "Contact form UI is implemented and includes necessary fields.", "Page is responsive."],
-          "security_implications": ["Client-side validation for form inputs to provide immediate feedback, but not as sole validation."],
+          "verification_criteria": [
+            "Contact information is accurate.",
+            "Contact form UI is implemented and includes necessary fields.",
+            "Page is responsive."
+          ],
+          "security_implications": [
+            "Client-side validation for form inputs to provide immediate feedback, but not as sole validation."
+          ],
           "test_cases_references": ["testStrategy.md#ContactPageTesting"],
           "notes_comments": ["Backend for form submission is a separate task."]
         },
@@ -383,15 +505,22 @@
           "priority": "P0 - Critical",
           "user_stories_references": ["MVP-STORY-09"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Form submissions are successfully received and processed by the backend.", "Server-side validation is implemented and effective.", "Email notifications are sent correctly (if applicable).", "Appropriate success/error messages are returned to the client."],
+          "verification_criteria": [
+            "Form submissions are successfully received and processed by the backend.",
+            "Server-side validation is implemented and effective.",
+            "Email notifications are sent correctly (if applicable).",
+            "Appropriate success/error messages are returned to the client."
+          ],
           "security_implications": [
-            "Robust server-side input validation and sanitization is critical.", 
-            "Protect against spam (e.g., rate limiting, server-side CAPTCHA check).", 
+            "Robust server-side input validation and sanitization is critical.",
+            "Protect against spam (e.g., rate limiting, server-side CAPTCHA check).",
             "Securely configure email sending service if used.",
             "Prevent email injection if constructing emails from user input."
           ],
           "test_cases_references": ["testStrategy.md#ContactFormAPITesting"],
-          "notes_comments": ["Consider integration with an email service like SendGrid or Resend."]
+          "notes_comments": [
+            "Consider integration with an email service like SendGrid or Resend."
+          ]
         },
         {
           "task_id": "EPIC-MVP-02-TASK-008",
@@ -402,10 +531,16 @@
           "priority": "P1 - High",
           "user_stories_references": ["MVP-STORY-10"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Service overview page(s) accurately list and describe service categories.", "Links to individual service details (even if placeholder) are present.", "Page is responsive and adheres to UI specifications."],
+          "verification_criteria": [
+            "Service overview page(s) accurately list and describe service categories.",
+            "Links to individual service details (even if placeholder) are present.",
+            "Page is responsive and adheres to UI specifications."
+          ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#ServicePagesTesting"],
-          "notes_comments": ["This acts as a directory for services. Individual service detail pages are part of EPIC-MVP-03."]
+          "notes_comments": [
+            "This acts as a directory for services. Individual service detail pages are part of EPIC-MVP-03."
+          ]
         }
       ],
       "verification": [
@@ -423,12 +558,26 @@
       "depends_on": ["EPIC-MVP-01", "EPIC-MVP-07", "EPIC-MVP-02"],
       "priority": "P1 - High",
       "estimated_effort": "TBD",
-      "user_stories": ["MVP-STORY-07", "MVP-STORY-08", "MVP-STORY-10", "MVP-STORY-11", "MVP-STORY-12", "MVP-STORY-13", "MVP-STORY-14", "MVP-STORY-15", "MVP-STORY-31", "MVP-STORY-32", "MVP-STORY-33"],
+      "user_stories": [
+        "MVP-STORY-07",
+        "MVP-STORY-08",
+        "MVP-STORY-10",
+        "MVP-STORY-11",
+        "MVP-STORY-12",
+        "MVP-STORY-13",
+        "MVP-STORY-14",
+        "MVP-STORY-15",
+        "MVP-STORY-31",
+        "MVP-STORY-32",
+        "MVP-STORY-33"
+      ],
       "context": {
         "user_stories_doc": "userStories.md#EPIC-MVP-08",
         "marketing_requirements": "productRequirements.md#Marketing-and-SEO-Requirements"
       },
-      "security_implications": ["Ensure any SEO tools or scripts added do not introduce vulnerabilities."],
+      "security_implications": [
+        "Ensure any SEO tools or scripts added do not introduce vulnerabilities."
+      ],
       "test_cases_references": ["testStrategy.md#SEOChecks"],
       "tasks": [
         {
@@ -439,8 +588,17 @@
           "status": "todo",
           "priority": "P1 - High",
           "estimated_effort": "TBD",
-          "user_stories_ref": ["MVP-STORY-07", "MVP-STORY-08", "MVP-STORY-10", "MVP-STORY-31"],
-          "verification_criteria": ["Core pages have unique and optimized meta titles and descriptions.", "H1 tags are correctly used.", "Relevant images have alt text."]
+          "user_stories_ref": [
+            "MVP-STORY-07",
+            "MVP-STORY-08",
+            "MVP-STORY-10",
+            "MVP-STORY-31"
+          ],
+          "verification_criteria": [
+            "Core pages have unique and optimized meta titles and descriptions.",
+            "H1 tags are correctly used.",
+            "Relevant images have alt text."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-002",
@@ -450,8 +608,18 @@
           "status": "todo",
           "priority": "P1 - High",
           "estimated_effort": "TBD",
-          "user_stories_ref": ["MVP-STORY-11", "MVP-STORY-12", "MVP-STORY-13", "MVP-STORY-14", "MVP-STORY-15", "MVP-STORY-31"],
-          "verification_criteria": ["Service detail pages have unique and optimized meta elements.", "Structured data (Schema.org) for services is considered/implemented if feasible for MVP."]
+          "user_stories_ref": [
+            "MVP-STORY-11",
+            "MVP-STORY-12",
+            "MVP-STORY-13",
+            "MVP-STORY-14",
+            "MVP-STORY-15",
+            "MVP-STORY-31"
+          ],
+          "verification_criteria": [
+            "Service detail pages have unique and optimized meta elements.",
+            "Structured data (Schema.org) for services is considered/implemented if feasible for MVP."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-003",
@@ -462,7 +630,9 @@
           "priority": "P1 - High",
           "estimated_effort": "TBD",
           "user_stories_ref": ["MVP-STORY-32"],
-          "verification_criteria": ["Google Business Profile is live and contains complete, accurate information."]
+          "verification_criteria": [
+            "Google Business Profile is live and contains complete, accurate information."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-004",
@@ -473,7 +643,10 @@
           "priority": "P2 - Medium",
           "estimated_effort": "TBD",
           "user_stories_ref": ["MVP-STORY-33"],
-          "verification_criteria": ["NAP is consistent on website and GBP.", "List of key local directories for citation identified."]
+          "verification_criteria": [
+            "NAP is consistent on website and GBP.",
+            "List of key local directories for citation identified."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-005",
@@ -483,7 +656,9 @@
           "status": "todo",
           "priority": "P2 - Medium",
           "estimated_effort": "TBD",
-          "verification_criteria": ["sitemap.xml is generated correctly, includes all relevant pages, and is submitted to Google Search Console."]
+          "verification_criteria": [
+            "sitemap.xml is generated correctly, includes all relevant pages, and is submitted to Google Search Console."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-006",
@@ -493,11 +668,21 @@
           "status": "todo",
           "priority": "P2 - Medium",
           "estimated_effort": "TBD",
-          "verification_criteria": ["robots.txt is present and correctly configured, allowing access to all public pages and disallowing admin/private areas."]
+          "verification_criteria": [
+            "robots.txt is present and correctly configured, allowing access to all public pages and disallowing admin/private areas."
+          ]
         }
       ],
-      "verification": ["Core pages and service detail pages are optimized for on-page SEO.", "Google Business Profile is set up and optimized.", "NAP consistency strategy is defined and implemented on site/GBP.", "Sitemap.xml is generated and submitted.", "robots.txt is correctly configured."],
-      "notes_comments": ["Advanced SEO (link building, ongoing content strategy beyond MVP pages) is out of scope for this epic. Structured data (Schema.org) for services, events, and local business should be implemented as part of on-page SEO tasks."]
+      "verification": [
+        "Core pages and service detail pages are optimized for on-page SEO.",
+        "Google Business Profile is set up and optimized.",
+        "NAP consistency strategy is defined and implemented on site/GBP.",
+        "Sitemap.xml is generated and submitted.",
+        "robots.txt is correctly configured."
+      ],
+      "notes_comments": [
+        "Advanced SEO (link building, ongoing content strategy beyond MVP pages) is out of scope for this epic. Structured data (Schema.org) for services, events, and local business should be implemented as part of on-page SEO tasks."
+      ]
     },
     {
       "id": "EPIC-MVP-03",
@@ -523,7 +708,9 @@
         "testStrategy.md#ServicePagesTesting",
         "testStrategy.md#DynamicContentValidation"
       ],
-      "notes_comments": ["Focuses on creating a flexible structure for presenting individual service offerings. Actual booking is handled in a subsequent epic."],
+      "notes_comments": [
+        "Focuses on creating a flexible structure for presenting individual service offerings. Actual booking is handled in a subsequent epic."
+      ],
       "tasks": [
         {
           "task_id": "EPIC-MVP-03-TASK-001",
@@ -540,8 +727,12 @@
             "Template is responsive and adheres to UI guidelines."
           ],
           "security_implications": [],
-          "test_cases_references": ["testStrategy.md#ComponentTesting-ServiceTemplate"],
-          "notes_comments": ["This task creates the shell/structure. Content population is next."]
+          "test_cases_references": [
+            "testStrategy.md#ComponentTesting-ServiceTemplate"
+          ],
+          "notes_comments": [
+            "This task creates the shell/structure. Content population is next."
+          ]
         },
         {
           "task_id": "EPIC-MVP-03-TASK-002",
@@ -557,9 +748,13 @@
             "Pages are correctly rendered with their specific content using the template.",
             "CTAs on these pages are clear and link to the intended next step (e.g., booking form page)."
           ],
-          "security_implications": ["Ensure all content is reviewed and does not contain unintended executable scripts if sourced from less trusted CMS-like systems in the future (not an MVP concern for hardcoded/markdown content)."],
+          "security_implications": [
+            "Ensure all content is reviewed and does not contain unintended executable scripts if sourced from less trusted CMS-like systems in the future (not an MVP concern for hardcoded/markdown content)."
+          ],
           "test_cases_references": ["testStrategy.md#ContentValidation"],
-          "notes_comments": ["Focus on a few key services to validate the template and content structure."]
+          "notes_comments": [
+            "Focus on a few key services to validate the template and content structure."
+          ]
         },
         {
           "task_id": "EPIC-MVP-03-TASK-003",
@@ -575,9 +770,13 @@
             "Dynamic routing correctly fetches and displays content for different service slugs.",
             "404 handling is in place for non-existent service slugs."
           ],
-          "security_implications": ["Validate slug parameters to prevent malicious inputs or unexpected behavior."],
+          "security_implications": [
+            "Validate slug parameters to prevent malicious inputs or unexpected behavior."
+          ],
           "test_cases_references": ["testStrategy.md#RoutingTests"],
-          "notes_comments": ["If MVP uses static pages per service, this task can be deferred or marked N/A for MVP. However, dynamic routing is a Next.js best practice for this kind of content."]
+          "notes_comments": [
+            "If MVP uses static pages per service, this task can be deferred or marked N/A for MVP. However, dynamic routing is a Next.js best practice for this kind of content."
+          ]
         }
       ],
       "verification": [
@@ -634,8 +833,13 @@
             "All required fields are present.",
             "Client-side input validation provides helpful error messages."
           ],
-          "security_implications": ["Protect against CSRF using standard Next.js/React practices if applicable.", "Ensure form fields have appropriate `autoComplete` attributes."],
-          "test_cases_references": ["testStrategy.md#ComponentTesting-BookingFormUI"],
+          "security_implications": [
+            "Protect against CSRF using standard Next.js/React practices if applicable.",
+            "Ensure form fields have appropriate `autoComplete` attributes."
+          ],
+          "test_cases_references": [
+            "testStrategy.md#ComponentTesting-BookingFormUI"
+          ],
           "notes_comments": ["Focus on usability and clear field definitions."]
         },
         {
@@ -658,8 +862,13 @@
             "Protect API route from abuse (e.g., rate limiting if necessary, though may be overkill for MVP).",
             "Securely handle API keys/credentials for the email sending service (use environment variables)."
           ],
-          "test_cases_references": ["testStrategy.md#APITesting-BookingSubmission", "testStrategy.md#EmailNotificationValidation"],
-          "notes_comments": ["Choose an email sending service (e.g., Resend, SendGrid) and integrate its SDK. Ensure proper error handling for email sending failures."]
+          "test_cases_references": [
+            "testStrategy.md#APITesting-BookingSubmission",
+            "testStrategy.md#EmailNotificationValidation"
+          ],
+          "notes_comments": [
+            "Choose an email sending service (e.g., Resend, SendGrid) and integrate its SDK. Ensure proper error handling for email sending failures."
+          ]
         },
         {
           "task_id": "EPIC-MVP-04-TASK-003",
@@ -676,8 +885,12 @@
             "Form state is managed correctly (e.g., reset after success, prevent multiple submissions)."
           ],
           "security_implications": [],
-          "test_cases_references": ["testStrategy.md#UITesting-BookingConfirmation"],
-          "notes_comments": ["This could be a simple inline message, a redirect to a dedicated 'thank you' page, or a toast notification."]
+          "test_cases_references": [
+            "testStrategy.md#UITesting-BookingConfirmation"
+          ],
+          "notes_comments": [
+            "This could be a simple inline message, a redirect to a dedicated 'thank you' page, or a toast notification."
+          ]
         }
       ],
       "verification": [
@@ -696,7 +909,9 @@
       "depends_on": ["EPIC-MVP-04"],
       "priority": "P2 - Medium",
       "estimated_effort": "TBD",
-      "user_stories": ["FUTURE-STORY-PAYMENT-01: As a user, I want to be able to pay for my booked services online securely so that I can confirm my booking immediately."],
+      "user_stories": [
+        "FUTURE-STORY-PAYMENT-01: As a user, I want to be able to pay for my booked services online securely so that I can confirm my booking immediately."
+      ],
       "context": {
         "potential_gateways": "Stripe, PayPal",
         "compliance_notes": "PCI-DSS considerations for future implementation."
@@ -706,7 +921,9 @@
         "Protection against payment fraud.",
         "Secure transmission and storage (if any) of payment-related data."
       ],
-      "test_cases_references": ["testStrategy.md#PaymentGatewayTesting (Future Placeholder)"],
+      "test_cases_references": [
+        "testStrategy.md#PaymentGatewayTesting (Future Placeholder)"
+      ],
       "notes_comments": [
         "Detailed planning and implementation for this epic will occur post-MVP.",
         "The choice of gateway will influence specific tasks and security measures.",
@@ -722,7 +939,10 @@
           "priority": "P2 - Medium",
           "user_stories_references": ["FUTURE-STORY-PAYMENT-01"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Preliminary list of suitable payment gateways documented.", "Key requirements for integration identified."]
+          "verification_criteria": [
+            "Preliminary list of suitable payment gateways documented.",
+            "Key requirements for integration identified."
+          ]
         },
         {
           "task_id": "EPIC-MVP-05-TASK-002-PLAN",
@@ -733,7 +953,9 @@
           "priority": "P2 - Medium",
           "user_stories_references": ["FUTURE-STORY-PAYMENT-01"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["High-level integration strategy documented."]
+          "verification_criteria": [
+            "High-level integration strategy documented."
+          ]
         }
       ],
       "verification": [
@@ -776,7 +998,10 @@
           "priority": "P1 - High",
           "user_stories_ref": ["MVP-STORY-18"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Email template design approved.", "Template includes all necessary information fields."]
+          "verification_criteria": [
+            "Email template design approved.",
+            "Template includes all necessary information fields."
+          ]
         },
         {
           "task_id": "EPIC-MVP-06-TASK-002",
@@ -786,7 +1011,11 @@
           "status": "todo",
           "priority": "P1 - High",
           "estimated_effort": "TBD",
-          "verification_criteria": ["Email service selected and account set up.", "API keys are securely stored as environment variables.", "Test email can be sent successfully via the service."]
+          "verification_criteria": [
+            "Email service selected and account set up.",
+            "API keys are securely stored as environment variables.",
+            "Test email can be sent successfully via the service."
+          ]
         },
         {
           "task_id": "EPIC-MVP-06-TASK-003",
@@ -797,7 +1026,11 @@
           "priority": "P1 - High",
           "user_stories_ref": ["MVP-STORY-18"],
           "estimated_effort": "TBD",
-          "verification_criteria": ["Confirmation email is automatically sent to the client's provided email address after a booking request.", "Email contains correct booking details.", "Failures in email sending are handled gracefully (e.g., logged)."]
+          "verification_criteria": [
+            "Confirmation email is automatically sent to the client's provided email address after a booking request.",
+            "Email contains correct booking details.",
+            "Failures in email sending are handled gracefully (e.g., logged)."
+          ]
         }
       ],
       "verification": [
@@ -812,7 +1045,16 @@
       "title": "Comprehensive Testing (MVP)",
       "description": "Conduct comprehensive testing for all implemented MVP features. This includes unit, integration, and end-to-end (E2E) testing for functionality, as well as responsive, cross-browser, basic security, and accessibility checks. User Acceptance Testing (UAT) will be performed to validate against business requirements.",
       "status": "todo",
-      "depends_on": ["EPIC-MVP-01", "EPIC-MVP-09", "EPIC-MVP-07", "EPIC-MVP-02", "EPIC-MVP-08", "EPIC-MVP-03", "EPIC-MVP-04", "EPIC-MVP-06"],
+      "depends_on": [
+        "EPIC-MVP-01",
+        "EPIC-MVP-09",
+        "EPIC-MVP-07",
+        "EPIC-MVP-02",
+        "EPIC-MVP-08",
+        "EPIC-MVP-03",
+        "EPIC-MVP-04",
+        "EPIC-MVP-06"
+      ],
       "priority": "P0 - Critical",
       "estimated_effort": "TBD",
       "user_stories": ["MVP-STORY-10", "MVP-STORY-13"],
@@ -860,7 +1102,9 @@
           ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#UnitTesting"],
-          "notes_comments": ["Focus on testing business logic within components and API routes."]
+          "notes_comments": [
+            "Focus on testing business logic within components and API routes."
+          ]
         },
         {
           "task_id": "EPIC-MVP-06-TASK-002",
@@ -878,7 +1122,9 @@
           ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#IntegrationTesting"],
-          "notes_comments": ["Test interactions between UI components and API routes thoroughly."]
+          "notes_comments": [
+            "Test interactions between UI components and API routes thoroughly."
+          ]
         },
         {
           "task_id": "EPIC-MVP-06-TASK-003",
@@ -895,8 +1141,13 @@
             "Responsive design is verified at key breakpoints."
           ],
           "security_implications": [],
-          "test_cases_references": ["testStrategy.md#E2ETesting", "testStrategy.md#ResponsiveTesting"],
-          "notes_comments": ["Automate as many key user flows as feasible for MVP."]
+          "test_cases_references": [
+            "testStrategy.md#E2ETesting",
+            "testStrategy.md#ResponsiveTesting"
+          ],
+          "notes_comments": [
+            "Automate as many key user flows as feasible for MVP."
+          ]
         },
         {
           "task_id": "EPIC-MVP-06-TASK-004",
@@ -912,8 +1163,13 @@
             "Responsive design adapts correctly to various screen sizes without layout breaks or usability issues."
           ],
           "security_implications": [],
-          "test_cases_references": ["testStrategy.md#CrossBrowserTesting", "testStrategy.md#ResponsiveTesting"],
-          "notes_comments": ["Define a list of target browsers/devices if not already specified."]
+          "test_cases_references": [
+            "testStrategy.md#CrossBrowserTesting",
+            "testStrategy.md#ResponsiveTesting"
+          ],
+          "notes_comments": [
+            "Define a list of target browsers/devices if not already specified."
+          ]
         },
         {
           "task_id": "EPIC-MVP-06-TASK-005",
@@ -929,8 +1185,14 @@
             "Basic security checks pass.",
             "Application adheres to HTTPS."
           ],
-          "security_implications": ["Focus on vulnerabilities most relevant to MVP features."],
-          "test_cases_references": ["testStrategy.md#AccessibilityTesting", "testStrategy.md#SecurityTesting", "securityRequirements.md"],
+          "security_implications": [
+            "Focus on vulnerabilities most relevant to MVP features."
+          ],
+          "test_cases_references": [
+            "testStrategy.md#AccessibilityTesting",
+            "testStrategy.md#SecurityTesting",
+            "securityRequirements.md"
+          ],
           "notes_comments": []
         },
         {
@@ -950,7 +1212,9 @@
           ],
           "security_implications": [],
           "test_cases_references": ["testStrategy.md#UAT"],
-          "notes_comments": ["Clear communication and a structured feedback process are key."]
+          "notes_comments": [
+            "Clear communication and a structured feedback process are key."
+          ]
         }
       ],
       "verification": [
@@ -1008,9 +1272,13 @@
             "Custom domain is correctly pointing to the Vercel deployment.",
             "All production environment variables are securely set."
           ],
-          "security_implications": ["Secure handling of all production credentials and settings."],
+          "security_implications": [
+            "Secure handling of all production credentials and settings."
+          ],
           "test_cases_references": ["deploymentPlan.md#EnvironmentSetup"],
-          "notes_comments": ["Double-check all environment variables against requirements."]
+          "notes_comments": [
+            "Double-check all environment variables against requirements."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-002",
@@ -1026,9 +1294,13 @@
             "Automated tests pass in the pipeline before deployment.",
             "Production deployment requires manual approval or specific trigger."
           ],
-          "security_implications": ["Secure secrets and access controls within the CI/CD pipeline for production deployments."],
+          "security_implications": [
+            "Secure secrets and access controls within the CI/CD pipeline for production deployments."
+          ],
           "test_cases_references": ["deploymentPlan.md#CICDProcess"],
-          "notes_comments": ["Ensure the pipeline uses Bun for build and test steps if specified project-wide."]
+          "notes_comments": [
+            "Ensure the pipeline uses Bun for build and test steps if specified project-wide."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-003",
@@ -1043,9 +1315,13 @@
             "All pre-deployment checklist items are completed and verified.",
             "Any necessary data for MVP is correctly migrated/seeded in the production database (if applicable)."
           ],
-          "security_implications": ["Verify data integrity and security during migration."],
+          "security_implications": [
+            "Verify data integrity and security during migration."
+          ],
           "test_cases_references": ["deploymentPlan.md#PreDeploymentChecklist"],
-          "notes_comments": ["Coordinate any data migration with potential downtime if necessary, though unlikely for MVP."]
+          "notes_comments": [
+            "Coordinate any data migration with potential downtime if necessary, though unlikely for MVP."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-004",
@@ -1062,7 +1338,9 @@
           ],
           "security_implications": [],
           "test_cases_references": ["deploymentPlan.md#DeploymentSteps"],
-          "notes_comments": ["Have rollback plan readily available as per deploymentPlan.md."]
+          "notes_comments": [
+            "Have rollback plan readily available as per deploymentPlan.md."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-005",
@@ -1079,8 +1357,12 @@
             "No major errors or issues are identified post-launch."
           ],
           "security_implications": [],
-          "test_cases_references": ["deploymentPlan.md#PostDeploymentValidation"],
-          "notes_comments": ["A quick run-through of UAT scenarios on production."]
+          "test_cases_references": [
+            "deploymentPlan.md#PostDeploymentValidation"
+          ],
+          "notes_comments": [
+            "A quick run-through of UAT scenarios on production."
+          ]
         },
         {
           "task_id": "EPIC-MVP-08-TASK-006",
@@ -1095,9 +1377,13 @@
             "Vercel Analytics are active and collecting data.",
             "Basic error tracking/alerting is configured and functional."
           ],
-          "security_implications": ["Ensure monitoring tools do not log sensitive PII."],
+          "security_implications": [
+            "Ensure monitoring tools do not log sensitive PII."
+          ],
           "test_cases_references": ["deploymentPlan.md#Monitoring"],
-          "notes_comments": ["Focus on uptime and critical error notifications for MVP."]
+          "notes_comments": [
+            "Focus on uptime and critical error notifications for MVP."
+          ]
         }
       ],
       "verification": [

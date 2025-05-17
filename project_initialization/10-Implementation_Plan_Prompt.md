@@ -4,17 +4,17 @@
 
 **Input:** You will be provided with the following finalized project documents:
 
-* **SPEC Document (`project_docs/technicalSpecifications.md`):** Detailed technical specifications & architecture.
-* **BRD Document (`project_docs/businessRequirements.md`):** Business context and goals.
-* **PRD Document (`project_docs/productRequirements.md`):** Product features, workflows, acceptance criteria, potentially MVP scope.
-* **UI/UX Specification (`project_docs/uiSpecifications.md`):** Detailed UI specs, components, style guide, interactions.
-* **Security Requirements Spec (`project_docs/securityRequirements.md`):** Specific security controls and requirements.
-* **User Stories / Backlog (`project_docs/userStories.md`):** Granular user stories **prioritized and structured for MVP first**.
-* **Test Strategy/Plan (`project_docs/testStrategy.md`):** Testing approach, environments, exit criteria.
-* **Deployment Plan (`project_docs/deploymentPlan.md`):** Deployment process, CI/CD pipeline details.
-* **Contextual Tech Stack Updates:** Utilize Context7 (using `mcp1_resolve-library-id` and `mcp1_get-library-docs`) to fetch the latest documentation for Next.js, React, TypeScript, and Tailwind CSS to ensure usage of the latest features, best practices, and advanced techniques.
+- **SPEC Document (`project_docs/technicalSpecifications.md`):** Detailed technical specifications & architecture.
+- **BRD Document (`project_docs/businessRequirements.md`):** Business context and goals.
+- **PRD Document (`project_docs/productRequirements.md`):** Product features, workflows, acceptance criteria, potentially MVP scope.
+- **UI/UX Specification (`project_docs/uiSpecifications.md`):** Detailed UI specs, components, style guide, interactions.
+- **Security Requirements Spec (`project_docs/securityRequirements.md`):** Specific security controls and requirements.
+- **User Stories / Backlog (`project_docs/userStories.md`):** Granular user stories **prioritized and structured for MVP first**.
+- **Test Strategy/Plan (`project_docs/testStrategy.md`):** Testing approach, environments, exit criteria.
+- **Deployment Plan (`project_docs/deploymentPlan.md`):** Deployment process, CI/CD pipeline details.
+- **Contextual Tech Stack Updates:** Utilize Context7 (using `mcp1_resolve-library-id` and `mcp1_get-library-docs`) to fetch the latest documentation for Next.js, React, TypeScript, and Tailwind CSS to ensure usage of the latest features, best practices, and advanced techniques.
 
-**Task:** Generate a highly detailed **Advanced Implementation Plan** as a single **JSON object**, structured to reflect the **MVP-first** approach defined in the User Stories input. This plan translates *all* relevant input documents into a hierarchical sequence of goals, executable tasks, verification steps, and context points suitable for orchestration and execution by the AI agent.
+**Task:** Generate a highly detailed **Advanced Implementation Plan** as a single **JSON object**, structured to reflect the **MVP-first** approach defined in the User Stories input. This plan translates _all_ relevant input documents into a hierarchical sequence of goals, executable tasks, verification steps, and context points suitable for orchestration and execution by the AI agent.
 
 **JSON Structure Requirements:**
 
@@ -61,16 +61,16 @@ Each item within the plan (e.g., Phase, Epic, Feature, Story, Step) should follo
 }
 ```
 
-* **MVP Prioritization:** The structure and `depends_on` fields must reflect the MVP-first sequence derived from the `userStories.md` input. MVP items should be grouped together and appear before post-MVP items.
-* **Key Fields:** Ensure each step/goal includes `id`, `type`, `title`, `description`, `status`, `depends_on`, `context`, `action`, `verification`. Use `executable_snippet` and `error_handling` where appropriate.
-* **Context Provision:** Context for MVP items should focus on the minimal requirements needed for the MVP functionality.
-* **Action Definition:** Action instructions should align with the MVP scope for initial items.
-* **Verification:** Verification steps should initially focus on confirming MVP functionality and acceptance criteria.
+- **MVP Prioritization:** The structure and `depends_on` fields must reflect the MVP-first sequence derived from the `userStories.md` input. MVP items should be grouped together and appear before post-MVP items.
+- **Key Fields:** Ensure each step/goal includes `id`, `type`, `title`, `description`, `status`, `depends_on`, `context`, `action`, `verification`. Use `executable_snippet` and `error_handling` where appropriate.
+- **Context Provision:** Context for MVP items should focus on the minimal requirements needed for the MVP functionality.
+- **Action Definition:** Action instructions should align with the MVP scope for initial items.
+- **Verification:** Verification steps should initially focus on confirming MVP functionality and acceptance criteria.
 
 **Completeness & Coverage:**
 
-* Ensure all requirements *necessary for the MVP* are translated first, followed by subsequent features.
-* Include setup, configuration, testing, and documentation tasks relevant to each phase (MVP, then later increments).
+- Ensure all requirements _necessary for the MVP_ are translated first, followed by subsequent features.
+- Include setup, configuration, testing, and documentation tasks relevant to each phase (MVP, then later increments).
 
 **Emphasis:** The primary goal is to create a highly structured, machine-parsable JSON plan that guides the AI agent to build and deliver the **MVP rapidly and efficiently first**, followed by iterative development of subsequent features. The plan must clearly reflect the prioritization and dependencies defined in the MVP-focused user stories.
 
@@ -78,6 +78,6 @@ Each item within the plan (e.g., Phase, Epic, Feature, Story, Step) should follo
 
 **Output Format:**
 
-* A single, valid JSON object representing the entire hierarchical plan, ordered with MVP items first. Ensure correct JSON syntax.
+- A single, valid JSON object representing the entire hierarchical plan, ordered with MVP items first. Ensure correct JSON syntax.
 
 **Output File:** Save the generated plan as `project_docs/implementationPlan.json`.
